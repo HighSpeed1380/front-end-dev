@@ -10,10 +10,6 @@ import {
 import HeaderNav from './navigation/header';
 
 import Home from "./SparklingWindow/Home/Home";
-import JewelleryCollection from './SparklingWindow/JewelleryCollection/JewelleryCollection';
-import Product from './SparklingWindow/Product/Product';
-import StorePage from './SparklingWindow/StorePage/StorePage';
-import UserHome from './SparklingWindow/UserHome/UserHome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,10 +21,6 @@ root.render(
       <Routes>
         HeaderNav
           <Route exact path ="/" element={<Home/>} />
-          <Route exact path ="/jewellery" element={<JewelleryCollection/>} />
-          <Route exact path ="/product" element={<Product/>} />
-          <Route exact path ="/store" element={<StorePage/>} />
-          <Route exact path ="/social" element={<UserHome/>} />
 
 
         </Routes>
