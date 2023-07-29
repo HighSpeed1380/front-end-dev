@@ -1,36 +1,38 @@
 import React,{ Component } from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
-import App from './App';
+import './App.css';
 import reportWebVitals from './reportWebVitals';
-import './fonts/NHaasGroteskTXPro-55Rg.ttf'; 
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
 import HeaderNav from './navigation/header';
+
+import Home from "./SparklingWindow/Home/Home";
+import JewelleryCollection from './SparklingWindow/JewelleryCollection/JewelleryCollection';
+import Product from './SparklingWindow/Product/Product';
+import StorePage from './SparklingWindow/StorePage/StorePage';
+import UserHome from './SparklingWindow/UserHome/UserHome';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     
       <HeaderNav/>
+      <div className="content-display">
+
       <Routes>
-        <Route exact path="/" element={<App/>}/>
-      </Routes>
-      {/* <Routes>
-          <Route exact path ="/" element={<LandingPage/>} />
-          <Route exact path ="/visualization" element={<Visualization/>} />
-          <Route exact path ="/governance" element={<Governance/>} />
-          <Route exact path ="/virtualization" element={<Virtualization/>} />
-          <Route exact path ="/prototyping" element={<Prototyping/>} />
-          <Route exact path ="/software-development" element={<SoftwareDevelopment/>} />
-          <Route exact path ="/augmented" element={<CandidatePage/>} />
-          <Route exact path ="/contact" element={<Contact/>} />
+        HeaderNav
+          <Route exact path ="/" element={<Home/>} />
+          <Route exact path ="/jewellery" element={<JewelleryCollection/>} />
+          <Route exact path ="/product" element={<Product/>} />
+          <Route exact path ="/store" element={<StorePage/>} />
+          <Route exact path ="/social" element={<UserHome/>} />
 
 
-        </Routes> */}
-        {/* <BottomNavigation/> */}
+        </Routes>
+        </div>
     </BrowserRouter>
 );
 

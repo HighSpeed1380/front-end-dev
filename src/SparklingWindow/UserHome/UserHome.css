@@ -1,0 +1,646 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
+.social-user-head{
+
+    /* Frame 66 */
+
+
+
+background: #FFFFFF;
+
+
+/* harper-sunday-bLkj9eNhW90-unsplash 1 */
+
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+
+min-height: 100%;
+height: auto;
+}
+
+.side-bar-menu{
+    width: 15%;
+    margin-left:2%;
+    padding-right:2%;
+    min-height: 100%;
+    padding-top:100px;
+    border-right: .1em solid #D9D9D9;
+}
+.social-bar-section{
+ width: 85%;
+ padding: 2%;
+}
+
+
+.social-text-box{
+    width:70%;
+    border-radius: 18px;
+    /* Rectangle 13 */
+
+    box-sizing: border-box;
+    text-indent: 20px;
+    /* Extra Styling */
+    padding: 5px 3px;
+    transition:0.3s;
+
+
+    border: 1px solid #E9E9E9;
+    border-radius: 44px;
+
+    padding: 20px; 
+    min-width: 200px;
+    height: 15px;
+    
+    /* Rectangle 163674 */
+
+    box-sizing: border-box;
+
+
+    border: 1px solid #A9A9A9;
+    border-radius: 8px;
+
+}
+
+
+.input-button-filter{
+    /* Rectangle 163676 */
+
+box-sizing: border-box;
+position: relative;
+width: 44px;
+height: 44px;
+padding: 10px;
+margin-left: 10px;
+
+border: 1px solid #A9A9A9;
+border-radius: 8px;
+
+}
+
+.suggested-box{
+    /* Rectangle 163649 */
+
+box-sizing: border-box;
+
+width: 106px;
+
+
+background: #FFFFFF;
+border: 1px solid #A9A9A9;
+border-radius: 6px;
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-size:15px;
+/* Rectangle 163649 */
+
+
+text-align:center;
+
+margin: 5px;
+color: #8B8B8B;
+}
+
+.social-box-flex{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+
+}
+
+
+.content{
+  height: auto;
+ margin: 5px;
+ grid-area: auto / auto / span 2 / auto;
+
+
+}
+.content-heighted-1{
+    grid-area: auto / auto / span 1 / auto;
+}
+
+.content-heighted{
+    grid-area: auto / auto / span 3 / auto;
+  }
+
+/* Frame 37 */
+
+.social-profile-img{
+border-radius: 34px;
+width: 34px;
+height: 34px;
+
+/* julian-wan-WNoLnJo7tS8-unsplash 1 */
+
+background: url('./img/profile.svg');
+}
+
+/* Wesley Adam */
+
+.social-profile-text{
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* 572 followers */
+
+.social-profile-follower{
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+
+color: #BBBBBB;
+}
+
+  
+
+
+.profile-image{
+    /* image 4 */
+
+/* Frame 19 */
+
+box-sizing: border-box;
+
+border: 6px solid #A45100;
+filter: drop-shadow(0px 4px 10px rgba(105, 105, 105, 0.25));
+border-radius: 150px;
+
+
+/* Ellipse 73 */
+height:150px;
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+
+filter: drop-shadow(0px 4px 10px rgba(105, 105, 105, 0.25));
+
+
+
+
+}
+.story-list{
+
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    display:flex;
+flex-direction:row;
+background: #FFFFFF;
+
+
+}
+.story{
+    text-align: center;
+    width:150px;
+height:150px;
+align-items: center;
+margin: 5px;
+padding:10px;
+}
+
+.story-frame{
+    /* Group 1000004478 */
+
+
+
+    width:150px;
+    height:150px;
+
+
+background: #FFFFFF;
+border: 2px solid black;
+text-align: center;
+  position: relative;
+  overflow: hidden;
+/* Frame 20 */
+
+
+border-radius: 150px;
+margin-bottom:5px ;
+
+/* nati-melnychuk-5ngCICAXiH0-unsplash (1) 1 */
+
+
+
+
+}
+
+.store-header-flex{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 10px;
+}
+
+.store-details{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    background: #FFFFFF;
+
+}
+
+.truthboard-nav{
+    /* Rectangle 478 */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* display: grid;
+
+    grid-template-columns: auto auto auto auto auto auto ; */
+    text-align: center;
+    /* border-radius: 5px 5px 5px 5px; */
+    background: rgba(245, 246, 247, 0.1);
+    /* Rectangle 749 */
+
+box-sizing: border-box;
+
+border-bottom: 1px solid #D9D9D9;
+
+
+}
+.truthboard-nav p{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+
+    
+    background: #FFFFFF;
+
+
+}
+.truthboard-nav p:hover{
+
+    background: #FFFFFF;
+    border-bottom: 2px solid #A45100;
+    color: #A45100;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+    /* Rectangle 163654 */
+
+box-sizing: border-box;
+
+
+
+
+}
+.selected{
+    background: #FFFFFF;
+    border-bottom: 2px solid #A45100;
+    color: #A45100;
+    margin-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    /* Rectangle 163654 */
+
+box-sizing: border-box;
+
+}
+.store-category-display{
+
+    margin-top: 50px;
+}
+.video-category-flex{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    gap: 10px;
+}
+.offer-category-flex{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    gap: 10px;
+}
+.video-category{
+    /* daihana-monares-oWFPDjxuyUM-unsplash 1 */
+
+border-radius: 24px;
+
+height: 300px;
+
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+background: #000;
+padding: 20px;
+margin: 1%;
+bottom:10px;
+}
+
+.offer-category{
+    /* daihana-monares-oWFPDjxuyUM-unsplash 1 */
+
+border-radius: 24px;
+
+height: 300px;
+
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+background: #000;
+padding: 20px;
+margin: 1%;
+bottom:10px;
+}
+
+.div-50{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    vertical-align: left;  
+    text-align: left;
+}
+.home-display-heading-text-h1{
+/* Elevate your style with our luxury jewelry collection */
+
+
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 66px;
+line-height: 82px;
+
+color: #000000;
+
+
+}
+.shop-now-button{
+    height: auto;
+    margin: 0 auto;
+    background: #20303D;
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    text-align: center;
+    float: center;
+    color:#FFFFFF  ;
+
+    padding:15px 25px;
+    
+    cursor: pointer;
+
+    background: #333333;
+    border-radius: 5px;
+
+
+
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+/* Rectangle 287 */
+
+
+
+    background: #333333;
+    border-radius: 5px;
+
+    }
+
+.jewllery-collection{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+    background: #fff;
+}
+.jewellery-coll-nav{
+
+    
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    
+    color: #979797;
+}
+
+.jewellery-filter{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.jewllery-categories{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+}
+.jewllery-categories p{
+    margin: 5px;
+    color: #555555;
+}
+
+
+.product-description-display{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.category-box{
+    /* daihana-monares-oWFPDjxuyUM-unsplash 1 */
+
+border-radius: 24px;
+
+position: relative;
+height: 250px;
+
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+background: #000;
+padding: 20px;
+margin: 1%;
+}
+.category-flex{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    gap: 10px;
+}
+.popular-collection-flex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    gap: 10px;
+}
+.collection-text{
+    /* ✨ Our collection features a wide range of styles, from Classics and elegant to trendy and modern. ✨ */
+
+
+
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 62px;
+display: inline;
+color: #000000;
+
+
+}
+
+.product-display{
+    padding-left: 10%;
+
+    justify-content: center;
+    margin:0 auto;
+    /* Rectangle 163668 */
+
+border-radius: 24px;
+
+}
+.our-brand-display{
+    padding-left: 10%;
+    padding-top: 100px;
+    justify-content: center;
+    margin:0 auto;
+    /* Rectangle 163668 */
+
+border-radius: 24px;
+}
+
+
+.popular-collection-box img{
+    border-radius: 24px;
+
+    width: 100%;
+    height: auto;
+    
+    
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.popular-collection-box{
+
+    
+    
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+
+
+/* Woman’s Christian Necklace */
+.popular-collection-box p{
+
+
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+margin-left: 10%;
+margin-right: 10%;
+
+/* identical to box height */
+
+color: #555555;
+}
+.popular-collection-box div{
+/* $25 */
+
+display: flex;
+flex-direction: column;
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+margin-left: 10%;
+margin-right: 10%;
+/* identical to box height */
+
+color: #000000;
+
+
+    }
+
+    .testimonials-display{
+/* Rectangle 163669 */
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 2em;
+display:flex;
+flex-direction:row;
+text-align: center;
+background: #F1E4D8;
+border-radius: 24px;
+
+    }
+
+    .display-heading-tag-h1{
+        width: 90%;
+    }
+
+
+
+  

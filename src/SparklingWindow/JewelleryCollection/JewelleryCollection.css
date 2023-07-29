@@ -1,0 +1,276 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
+.home-display{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background:url("./img/head-jewellery.svg") no-repeat 50% 50%;;
+    width: 100%;
+    background-position: top right;
+    min-height: 80vh;
+    height: auto;
+    max-height: 120vh;
+    text-align: none;
+}
+
+
+.div-50{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    vertical-align: left;  
+    text-align: left;
+}
+.home-display-heading-text-h1{
+/* Elevate your style with our luxury jewelry collection */
+
+
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 66px;
+line-height: 82px;
+
+color: #000000;
+
+
+}
+.shop-now-button{
+    height: auto;
+    margin: 0 auto;
+    background: #20303D;
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    text-align: center;
+    float: center;
+    color:#FFFFFF  ;
+
+    padding:15px 25px;
+    
+    cursor: pointer;
+
+    background: #333333;
+    border-radius: 5px;
+
+
+
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+/* Rectangle 287 */
+
+
+
+    background: #333333;
+    border-radius: 5px;
+
+    }
+
+.jewllery-collection{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
+    background: #fff;
+}
+.jewellery-coll-nav{
+
+    
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    
+    color: #979797;
+}
+
+.jewellery-filter{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.jewllery-categories{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+}
+.jewllery-categories p{
+    margin: 5px;
+    color: #555555;
+}
+
+
+.necklace-category-display{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.category-box{
+    /* daihana-monares-oWFPDjxuyUM-unsplash 1 */
+
+border-radius: 24px;
+
+position: relative;
+height: 250px;
+
+
+font-family: 'Neue Haas Grotesk Text Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+background: #000;
+padding: 20px;
+margin: 1%;
+}
+.category-flex{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    gap: 10px;
+}
+.popular-collection-flex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 10px;
+}
+.collection-text{
+    /* ✨ Our collection features a wide range of styles, from Classics and elegant to trendy and modern. ✨ */
+
+
+
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 62px;
+display: inline;
+color: #000000;
+
+
+}
+
+.necklace-collection-display{
+    padding-left: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0 auto;
+    /* Rectangle 163668 */
+
+background: #E2CCB8;
+border-radius: 24px;
+
+}
+
+
+
+.popular-collection-box img{
+    border-radius: 24px;
+
+    width: 100%;
+    height: auto;
+    
+    
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.popular-collection-box{
+
+    
+    
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+
+
+/* Woman’s Christian Necklace */
+.popular-collection-box p{
+
+
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+margin-left: 10%;
+margin-right: 10%;
+
+/* identical to box height */
+
+color: #555555;
+}
+.popular-collection-box div{
+/* $25 */
+
+display: flex;
+flex-direction: column;
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+margin-left: 10%;
+margin-right: 10%;
+/* identical to box height */
+
+color: #000000;
+
+
+    }
+
+    .testimonials-display{
+/* Rectangle 163669 */
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 2em;
+display:flex;
+flex-direction:row;
+text-align: center;
+background: #F1E4D8;
+border-radius: 24px;
+
+    }
+
+    .display-heading-tag-h1{
+        width: 90%;
+    }
+
+
+
+  

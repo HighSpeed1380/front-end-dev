@@ -1,7 +1,12 @@
 import React from "react";
 import { useState } from "react"
 import './header.css';
-import logo from './logo.svg';
+import logo from './img/logo.svg';
+import cart from './img/cart.svg';
+
+import notify from './img/notify.svg'
+import chat from './img/chat.svg'
+
 import hamburger from './hamburger.svg';
 import { Link } from "react-router-dom";
 
@@ -34,18 +39,46 @@ function HeaderNav(){
           }}  style={{"color":"#555555"}}>Home</Link>
             </li>
             <li>
-            <Link to="/visualization" onClick={() => {
+            <Link to="/jewellery" onClick={() => {
               if(isNavExpanded){
                 setIsNavExpanded(!isNavExpanded)
               }
-          }} style={{"color":"#000"}}>Visualization</Link>
+          }} style={{"color":"#000"}}>Jewellery Categories</Link>
             </li>
             <li>
+              <Link to="/product" onClick={() => {
+              if(isNavExpanded){
+                setIsNavExpanded(!isNavExpanded)
+              }
+          }} style={{"color":"#FF0000"}}>Product Details</Link>
+            </li>
+            <li>
+              <Link to="/store" onClick={() => {
+              if(isNavExpanded){
+                setIsNavExpanded(!isNavExpanded)
+              }
+          }}>Store</Link>
+            </li>
+            <li>
+              <Link to="/social" onClick={() => {
+              if(isNavExpanded){
+                setIsNavExpanded(!isNavExpanded)
+              }
+          }}>Store</Link>
+            </li>
+            <li style={isNavExpanded ? {"display":"block"} : {"display":"none"}}>
               <Link to="/virtualization" onClick={() => {
               if(isNavExpanded){
                 setIsNavExpanded(!isNavExpanded)
               }
-          }} style={{"color":"#FF0000"}}>Virtualization</Link>
+          }} style={{"color":"#FF0000"}}>Sign Up</Link>
+            </li>
+            <li style={isNavExpanded ? {"display":"block"} : {"display":"none"}}>
+              <Link to="/virtualization" onClick={() => {
+              if(isNavExpanded){
+                setIsNavExpanded(!isNavExpanded)
+              }
+          }} style={{"color":"#FF0000"}}>Login</Link>
             </li>
             {/* <li>
               <Link to="/governance" onClick={() => {
@@ -61,18 +94,33 @@ function HeaderNav(){
               }
           }}>Prototyping</Link>
             </li> */}
-            <li>
-              <Link to="/software-development" onClick={() => {
-              if(isNavExpanded){
-                setIsNavExpanded(!isNavExpanded)
-              }
-          }}>Social</Link>
-            </li>
+
 
             
           </ul>
         </div>
-      </nav>
+        <input type="text" className="search-text-box" placeholder="Search Name of Jewellery, brand and type"/>
+
+        <div style={{'padding-left':'3%'}}>
+            <img src={cart}/>
+        </div>
+        <div style={{'padding-left':'3%'}}>
+            <img src={notify}/>
+        </div>
+        <div style={{'padding-left':'3%'}}>
+            <img src={chat}/>
+        </div>
+        
+        <div className="login-configs" >
+           |
+        </div>
+        <div className="login-configs" >
+            Sign Up
+        </div>
+        <div className="login-button">
+            Login
+        </div>
+</nav>
     );
 }
 export default HeaderNav;
