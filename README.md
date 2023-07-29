@@ -1,5 +1,5 @@
 # Front-end  Design
-Open [Front-end Design]([Front End Design](https://www.figma.com/file/09HITq39dV6JgEbXdEyLR1/Sparkling-Window-Web?type=design&node-id=0-1&mode=design&t=whbAZHx5ZWGZNwFH-0)) and design the Landing Page.
+Open [Front End Design](https://www.figma.com/file/09HITq39dV6JgEbXdEyLR1/Sparkling-Window-Web?type=design&node-id=0-1&mode=design&t=whbAZHx5ZWGZNwFH-0) and design the Landing Page.
 
 ## Available Scripts
 
